@@ -1,0 +1,136 @@
+/**{
+    border: 1px dashed white;
+}*/
+div {
+    border-radius: 2px;
+}
+
+#header {
+    z-index: 1;
+    position: fixed;
+    width: 99%;
+    margin-top: -20px;
+    height: 60px;
+    background-color: #668284;
+    margin-bottom: 10px;
+}
+
+#name {
+    float:left;
+    margin-left: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+
+#email {
+    float:right;
+    margin-right: 5px;
+    padding-top: 5px;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.left {
+    position: relative;
+    float: left;
+    margin-top: 50px;
+    width: 10%;
+    height: 600px;
+    background-color: #B9D7D9;
+    margin-bottom: 10px;
+}
+
+h4.edu {
+    margin-top: 10px;
+    font-family: Verdana, sans-serif;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    text-align: right;
+}
+
+h4.exp {
+    margin-top: 40px;
+    font-family: Verdana, sans-serif;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    text-align: right;
+}
+
+h4.ski {
+    margin-top: 230px;
+    font-family: Verdana, sans-serif;
+    padding-right: 10px;
+    padding-bottom: 0px;
+    text-align: right;
+}
+
+.right {
+    background-color: rgb(225, 226, 226);
+    position: relative;
+    float: right;
+    margin-top: 50px;
+    width: 88%;
+    height: 600px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.education h4 {
+    margin: 10px 5px 5px 5px;
+    font-family: Verdana, sans-serif;
+}
+
+.education li {
+    list-style-type: none;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.experience {
+    margin-top: 30px;
+}
+
+.experience h4 {
+    font-family: Verdana, sans-serif;
+    margin: 10px 5px 5px 5px;
+}
+
+.experience ul {
+    list-style-type: circle;
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.skills {
+    margin: 30px 5px 5px 5px;
+}
+
+.skills p {    
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    margin: 13px 5px 5px 10px: 
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+#footer {
+    position: relative;
+    height: 50px;
+    background-color: #668284;
+    clear: both;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #ffffff;
+}
+
+#footer p {
+    position: relative;
+    padding-top: 15px;
+}
